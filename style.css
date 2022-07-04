@@ -23,13 +23,28 @@ h3 {
 }
 .hero-section {
     display: flex;
+    justify-content: space-around;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 .hero-item {
-    flex-basis: 38%;
-    margin-left: 6%;
+    flex-basis: 36%;
 }
 .hero-item img {
+    width: 100%;
+}
+
+.dream-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-item {
+    flex-basis: 36%;
+}
+.dream-item img {
     width: 100%;
 }
