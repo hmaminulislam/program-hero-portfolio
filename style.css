@@ -13,6 +13,9 @@ h3 {
     font-size: 19px;
     font-weight: 700;
 }
+h2 {
+    font-size: 40px;
+}
 .btn {
     text-decoration: none;
     background-image: linear-gradient(#ff6947, rgb(226, 138, 122));
@@ -41,10 +44,36 @@ h3 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 150px;
 }
 .dream-item {
     flex-basis: 36%;
 }
 .dream-item img {
     width: 100%;
+}
+.experiences {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 100px;
+}
+.experiences-item {
+    flex-basis: 38%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 40px 20px;
+}
+.experiences-item h3 {
+    color: orange;
+}
+#experiences-left {
+    border-left: 8px solid #ff6a4f;
+}
+#experiences-right {
+    border-left: 8px solid #0C1EFF;
+}
+footer p {
+    text-align: center;
 }
