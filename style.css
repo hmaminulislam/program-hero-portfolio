@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+.header-color {
+    color: #F9A501;
+}
+h3 {
+    font-size: 19px;
+    font-weight: 700;
+}
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(#ff6947, rgb(226, 138, 122));
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hero-section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.hero-item {
+    flex-basis: 38%;
+    margin-left: 6%;
+}
+.hero-item img {
+    width: 100%;
+}
